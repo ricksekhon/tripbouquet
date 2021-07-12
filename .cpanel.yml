@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pixelanc/public_html/dev1.pixelance.net
+    - /bin/cp * $DEPLOYPATH
